@@ -1,3 +1,13 @@
 .hubble-mask-input {
   font-family: $default-font;
+  font-size: 16px;
+  border: 1px solid #eee;
+  letter-spacing: 5.2px;
+  padding: 5px 10px;
+
+  &:focus {
+    outline: 0;
+    outline: 1px dotted orangered;
+  }
+
 }

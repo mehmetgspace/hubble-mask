@@ -1,2 +1,37 @@
+html, body, div, ul, li, h1, p, a {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  padding: 30px; }
+
+.hubble-mask-group {
+  position: relative;
+  margin-bottom: 15px; }
+  .hubble-mask-group__label {
+    display: block;
+    margin-bottom: 10px; }
+
 .hubble-mask-input {
-  font-family: "JetBrains Mono", monospace; }
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  border: 1px solid #eee;
+  letter-spacing: 5.2px;
+  padding: 5px 10px; }
+  .hubble-mask-input:focus {
+    outline: 0;
+    outline: 1px dotted orangered; }
+
+.hubble-mask-line {
+  width: 12px;
+  height: 2px;
+  background-color: #cacaca;
+  margin-right: 3px; }
+  .hubble-mask-line--empty {
+    background-color: transparent; }
+  .hubble-mask-line-container {
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    left: 10px; }

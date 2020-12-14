@@ -12,9 +12,48 @@
 </head>
 <body>
 
-  <input type="text" placeholder="+90 123 456 78 90" class="hubble-mask-input">
+  <!-- United States -->
+  <div class="hubble-mask-group">
+    <label for="phone1" class="hubble-mask-group__label">United States</label>
+
+    <input
+      type="text"
+      id="phone1"
+      data-hubble-mask="+1xxxxxxxxxx"
+      class="hubble-mask-input"
+    />
+
+    <ul class="hubble-mask-line-container"></ul>
+  </div>
+
+  <!-- Germany -->
+  <div class="hubble-mask-group">
+    <label for="phone2" class="hubble-mask-group__label">Germany</label>
+
+    <input
+      type="text"
+      id="phone2"
+      data-hubble-mask="+49xxxxxxxxxxx"
+      class="hubble-mask-input"
+    />
+
+    <ul class="hubble-mask-line-container"></ul>
+  </div>
+
+  <!-- Turkey -->
+  <div class="hubble-mask-group">
+    <label for="phone3" class="hubble-mask-group__label">Turkey</label>
+    <input
+      type="text"
+      id="phone3"
+      data-hubble-mask="+90xxxxxxxxxx"
+      class="hubble-mask-input"
+    />
+
+    <ul class="hubble-mask-line-container"></ul>
+  </div>
 
   <script src="node_modules/jquery/dist/jquery.js"></script>
-  <script src="js/hubble-mask.js"></script>
+  <script src="js/controllers/hubble-mask.js"></script>
 </body>
 </html>
